@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surprise Message</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Telah banyak waktuku terlewati bersamamu, suka maupun duka senang maupun susah kamu telah menghiasi hariku saat aku bersamamu dan aku mau kita selamanya dekat denganmu. Karna aku mau kamu jadi pacar aku?</h1>
+        <button class="reveal-btn" onclick="revealMessage()">Klik Disini</button>
+        <div id="message-container" class="hidden">
+            <p id="message">Will be my girlfriend?</p>
+            <button class="heart-btn" onclick="showHearts()">💖 Yes! 💖</button>
+            <button class="no-btn" onclick="showNoMessage()">No 😢</button>
+        </div>
+    </div>
+    <audio id="click-sound" src=""></audio>
+    <audio id="heart-sound" src="Bruno.mp3"></audio>
+    <script src="scripts.js"></script>
+</body>
+</html>
